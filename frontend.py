@@ -17,16 +17,19 @@ import backend
 
 def get_selected_row(event):
 	global selected_tuple
-	index = listBox.curselection()[0]
-	selected_tuple = listBox.get(index)
-	title_entry.delete(0,END)
-	title_entry.insert(END,selected_tuple[1])
-	author_entry.delete(0,END)
-	author_entry.insert(END,selected_tuple[2])
-	year_entry.delete(0,END)
-	year_entry.insert(END,selected_tuple[3])
-	isbn_entry.delete(0,END)
-	isbn_entry.insert(END,selected_tuple[4])
+	try:
+		index = listBox.curselection()[0]
+		selected_tuple = listBox.get(index)
+		title_entry.delete(0,END)
+		title_entry.insert(END,selected_tuple[1])
+		author_entry.delete(0,END)
+		author_entry.insert(END,selected_tuple[2])
+		year_entry.delete(0,END)
+		year_entry.insert(END,selected_tuple[3])
+		isbn_entry.delete(0,END)
+		isbn_entry.insert(END,selected_tuple[4])
+	except IndexError:
+		pass
 
 def view_command():
 	listBox.delete(0,END)

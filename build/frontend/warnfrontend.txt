@@ -1,0 +1,15 @@
+missing module named 'org.python' - imported by pickle, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py, xml.sax
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py
+missing module named _winreg - imported by platform, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py
+missing module named 'java.lang' - imported by platform, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py
+missing module named winreg - imported by platform, mimetypes, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py, urllib.request
+missing module named org - imported by copy, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py
+missing module named nt - imported by os, ntpath, shutil, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py
+missing module named ce - imported by os, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py
+missing module named msvcrt - imported by subprocess, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py, getpass
+missing module named _winapi - imported by subprocess, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py
+missing module named _dummy_threading - imported by dummy_threading, /mnt/01D308A1EA508A20/Practice/Python/Book Store Program/frontend.py
